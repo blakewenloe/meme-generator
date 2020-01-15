@@ -1,0 +1,57 @@
+body {
+  height: 100vh;
+}
+
+#memeOutput {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.memeWrapper {
+  position: relative;
+  height: max-content;
+  max-width: 100%;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.memeWrapper p {
+  font-size: 1rem;
+  width: 100%;
+  max-width: 100%;
+  font-weight: bold;
+  text-align: center;
+  word-wrap: break-word;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.topText {
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  right: 5%;
+}
+
+.bottomText {
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+  right: 5%;
+}
+
+.delete {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+
+.button {
+  margin-top: 10px;
+}
