@@ -40,7 +40,6 @@ memeForm.addEventListener("submit", function(e) {
 
 memeOutput.addEventListener("click", function(e) {
   if (e.target.classList.contains("delete")) {
-    console.log(e.target);
     e.target.parentElement.remove();
   }
 });
